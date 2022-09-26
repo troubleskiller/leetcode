@@ -1,3 +1,5 @@
+import 'easy/09.dart';
+
 void main(List<String> arguments) {
-  print('Hello world!');
+  print(isPalindrome(1429669241));
 }
