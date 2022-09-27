@@ -30,8 +30,10 @@ bool isPalindrome(int x) {
   if (x < 0 || x % 10 == 0) return false;
   int res = 0;
   while (x > res) {
+    //一步一步得到从中间分隔开的两半数字
     res = res * 10 + x % 10;
     x ~/= 10;
   }
+  //只有两种情况「1.两边一样相等」「2.x比res小，在这种情况下，是因为数字的总位数是一个奇数，把最中间的一个数删掉，如果这两个数相等，那么也说明这是一个回文数」
   return res == x || x == res ~/ 10;
 }
