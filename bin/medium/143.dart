@@ -32,6 +32,7 @@ void reorderList(ListNode? head) {
   if (head == null || head.next == null) return;
   ListNode? fast = head;
   ListNode? slow = head;
+  //快慢指针，来确定中间点位置，即一个一次性跳一格，一个一次性跳两格。
   while (slow!.next != null && canH(fast!)) {
     slow = slow.next!;
     fast = fast.next!.next!;
@@ -40,7 +41,7 @@ void reorderList(ListNode? head) {
   slow.next = null;
   theOther = reverseList(theOther);
   //怎么实现两个链表合并啊？
-
+  //实现链表合并，两条链表都往后走，每次实现一整套操作（最后一个，前一个）；这样就可以避免每次合并需要考虑是前面还是后面的问题。
   while (head != null && theOther != null) {
     ListNode? l1 = head.next;
     ListNode? l2 = theOther.next;
@@ -51,6 +52,7 @@ void reorderList(ListNode? head) {
   }
 }
 
+//因为dart的空安全问题太麻烦，故使用函数避免
 bool canH(ListNode fast) {
   if (fast.next == null) return false;
   if (fast.next!.next == null) return false;
