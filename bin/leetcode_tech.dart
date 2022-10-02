@@ -1,3 +1,5 @@
+import 'easy/661.dart';
+
 void main(List<String> arguments) {
   ///do this solving in 9/26,hard to understand why these people from leetcode can have so smart brain.Also i want to know the reason why the world's best programing languages can be so hard to be used in leetcode.
   // print(isPalindrome(1429669241)); //---->>> 09.dart => 回文数（不允许使用字符串）
@@ -11,4 +13,20 @@ void main(List<String> arguments) {
   // print(checkPossibility([1, 2, 3, 4, 5, 6, 7, 8, 9, 2, 12, 3, 19]));
 
   //do 283 =>  移动零 in 9/29，把所有的非0移到最前面，再把后面的数依次补零。
+
+  //do 118 =>  杨辉三角形 in 9/30,杨辉三角形，之前做过好几次，所以这次比较容易就写出来了。
+
+  List a = imageSmoother([
+    [100, 200, 100],
+    [200, 50, 200],
+    [100, 200, 100]
+  ]);
+  print(a.toString());
+  // int a = Smoother([
+  //   [1, 1, 1],
+  //   [1, 0, 1],
+  //   [1, 1, 1]
+  // ], 1, 1);
+  // print('123');
+  // print(a.toString());
 }
