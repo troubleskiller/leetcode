@@ -1,5 +1,3 @@
-import 'medium/419.dart';
-
 void main(List<String> arguments) {
   ///do this solving in 9/26,hard to understand why these people from leetcode can have so smart brain.Also i want to know the reason why the world's best programing languages can be so hard to be used in leetcode.
   // print(isPalindrome(1429669241)); //---->>> 09.dart => 回文数（不允许使用字符串）
@@ -26,7 +24,8 @@ void main(List<String> arguments) {
 
   //do 598 => 范围求和 II in 10/4, 脑筋急转弯题目，意义不大。
 
-  print(countBattleships([
-    ["X", "X", "X"]
-  ]));
+  //do 419 => 甲板上的战舰 in 10/5,遍历的同时，只考虑单个点的问题。
+  // print(countBattleships([
+  //   ["X", "X", "X"]
+  // ]));
 }
