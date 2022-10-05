@@ -1,4 +1,4 @@
-import 'easy/661.dart';
+import 'medium/419.dart';
 
 void main(List<String> arguments) {
   ///do this solving in 9/26,hard to understand why these people from leetcode can have so smart brain.Also i want to know the reason why the world's best programing languages can be so hard to be used in leetcode.
@@ -25,4 +25,8 @@ void main(List<String> arguments) {
   // print(a.toString());
 
   //do 598 => 范围求和 II in 10/4, 脑筋急转弯题目，意义不大。
+
+  print(countBattleships([
+    ["X", "X", "X"]
+  ]));
 }
