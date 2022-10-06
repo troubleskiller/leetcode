@@ -28,4 +28,6 @@ void main(List<String> arguments) {
   // print(countBattleships([
   //   ["X", "X", "X"]
   // ]));
+
+  //do 189 => 轮转数组 in 10/6,取余运算的同时，考虑循环点的问题。
 }
