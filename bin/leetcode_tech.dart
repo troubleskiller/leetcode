@@ -30,4 +30,7 @@ void main(List<String> arguments) {
   // ]));
 
   //do 189 => 轮转数组 in 10/6,取余运算的同时，考虑循环点的问题。
+
+  //do 396 => 旋转函数 in 10/7,一道很巧妙的题目，但是很简单，10分钟内ak。
+  // print(maxRotateFunction([4, 3, 2, 6]));
 }
