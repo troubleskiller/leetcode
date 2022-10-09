@@ -40,4 +40,7 @@ void main(List<String> arguments) {
   //   [5, 6, 7, 8],
   //   [9, 10, 11, 12]
   // ]));
+
+  //do 59 => 螺旋矩阵 II in 10/9,模拟题，和上一题一样。
+  // print(generateMatrix(5));
 }
