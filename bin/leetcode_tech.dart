@@ -43,4 +43,11 @@ void main(List<String> arguments) {
 
   //do 59 => 螺旋矩阵 II in 10/9,模拟题，和上一题一样。
   // print(generateMatrix(5));
+
+  //do 498 => 对角线遍历 in 10/10,模拟题，但是很难，虽然看了solution后就明白了，但是依然感觉自己有一个鸿沟需要去跨越。
+  // print(findDiagonalOrder([
+  //   [1, 2, 3],
+  //   [4, 5, 6],
+  //   [7, 8, 9]
+  // ]));
 }
