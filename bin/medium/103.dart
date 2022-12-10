@@ -48,5 +48,4 @@ import '../common_class/common.dart';
   }
   return res;
   }
-  }
      
