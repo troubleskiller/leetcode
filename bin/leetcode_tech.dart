@@ -88,4 +88,6 @@ void main(List<String> arguments) {
   // do 剑指09 => 用两个栈实现队列 in 1/14,简单构造。
 
   // do 剑指30 => 包含min函数的栈 in 1/15，简单构造栈。
+
+  // do 剑指06 => 从尾到头打印链表
 }
