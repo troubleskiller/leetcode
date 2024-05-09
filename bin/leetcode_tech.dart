@@ -1,4 +1,5 @@
 import 'easy/01.dart';
+import 'medium/49.dart';
 
 void main(List<String> arguments) {
   ///do this solving in 9/26,hard to understand why these people from leetcode can have so smart brain.Also i want to know the reason why the world's best programing languages can be so hard to be used in leetcode.
@@ -93,5 +94,10 @@ void main(List<String> arguments) {
 
   // do 剑指24 => 翻转链表 in 1/17,翻转链表。
 
-  // do 01 => 两数之和 in 4/28 
+  // do 01 => 两数之和 in 4/28  
+
+  // do 49 => 字母异位词分组 in 5/7
+  // print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+
+  // do 11 => 盛最多水的容器 in 5/10
 }

@@ -10,6 +10,16 @@
         //     }
         // }
         // return ans;
-        nums.sort();
-        return nums;
+    List<int> ans = [];
+    Map<int,int> hashTable ={};
+    for(int i =0;i<nums.length;i++){
+        if(hashTable.containsKey(target-nums[i])){
+            ans.add(i);
+            int key = target-nums[i];
+            ans.add(hashTable[key]!);
+            return ans;
+        }
+        hashTable.putIfAbsent(nums[i], () => i);
+    }
+    return ans;
   }
